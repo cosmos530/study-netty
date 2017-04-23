@@ -7,7 +7,10 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Example_1_1 {
+/**
+ * example 1.1
+ */
+public class BlockingIOExample {
 	public static int portNumber = 8080;
 	
 	public void blockingIOExample() throws IOException {
